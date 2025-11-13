@@ -1,6 +1,6 @@
 
 import './App.css'
-import PeopleList from './peopleList'
+
 
 
 function App() {
@@ -31,18 +31,18 @@ function App() {
         favoriteColors: ['saffron', 'sage'],
         },
     
-    ]
+    ];
 
   
   return (
     <>
       <h1>Greetings, React!!</h1>
       <p>Let's test the things.</p>
-      <PeopleList people={people}/>
+      {/* <PeopleList people={people}/> */}
     </>
   )
 
 
-}
+};
 
 export default App

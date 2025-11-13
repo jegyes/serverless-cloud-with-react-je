@@ -1,15 +1,15 @@
 
-import Person from './person';
+// // import Person from './person';
 
-const PeopleList = ({people}) => {
+// const PeopleList = ({people}) => {
 
-    return (
-        <>
-            {people.map(person => (
-                <Person key={person.name} person={person}/>
-            ))}       
-        </>
-    )
-}
+//     return (
+//         <>
+//             {people.map(person => (
+//                 <Person key={person.name} person={person}/>
+//             ))}       
+//         </>
+//     )
+// }
 
-export default PeopleList
+// export default PeopleList
