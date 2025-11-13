@@ -1,15 +1,15 @@
 
-// // import Person from './person';
+import './App.css';
+// // import PeopleList from './PeopleList';
+// import Person from './Person';
 
-// const PeopleList = ({people}) => {
-
-//     return (
-//         <>
-//             {people.map(person => (
-//                 <Person key={person.name} person={person}/>
-//             ))}       
-//         </>
-//     )
-// }
-
-// export default PeopleList
+const PeopleList = ({people}) => {
+    return (
+        <>
+            {people.map(person => (
+                <p>{JSON.stringify(person)}</p>
+            ))}        
+        </>
+    )
+}
+export default PeopleList
