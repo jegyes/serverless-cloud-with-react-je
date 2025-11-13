@@ -1,13 +1,12 @@
 
-import App from "./App"
+import Person from './person';
 
 const PeopleList = ({people}) => {
 
     return (
         <>
-            <p>This is the PeopleList Component</p>
             {people.map(person => (
-                <p>{JSON.stringify(person)}</p>
+                <Person key={person.name} person={person}/>
             ))}       
         </>
     )
