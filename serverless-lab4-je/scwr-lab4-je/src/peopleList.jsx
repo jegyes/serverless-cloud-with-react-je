@@ -7,7 +7,7 @@ const PeopleList = ({people}) => {
     return (
         <>
             {people.map(person => (
-                <Person person={person}/>
+                <Person key={person.name} person={person}/>
             ))}        
         </>
     )
