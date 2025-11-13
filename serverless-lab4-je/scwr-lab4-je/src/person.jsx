@@ -1,12 +1,15 @@
 
 import './App.css';
-import Person from './Person';
-import PeopleList from './PeopleList';
+// // import PeopleList from './PeopleList';
+// import Person from './Person';
 
 const Person = ({person}) => {
     return (
         <>
-            <h2>Do these Persons have favorites? Let's see.</h2>        
+            <h2>Hello, {person.name}</h2>
+            {/* {people.map(person => (
+                
+            ))}         */}
         </>
     )
 }

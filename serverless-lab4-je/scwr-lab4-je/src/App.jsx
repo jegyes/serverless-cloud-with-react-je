@@ -1,6 +1,6 @@
 
 import './App.css'
-import PeopleList from './peopleList';
+import PeopleList from './PeopleList';
 
 
 
