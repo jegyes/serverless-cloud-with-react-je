@@ -8,16 +8,18 @@ const Person = ({person}) => {
             <p>{name}'s favorite number is {favoriteNumber}</p>
             <p>Add 10 to {name}'s favorite number, and the result is a more 
                 than perfect {favoriteNumber + 10}.</p>
-            <p>{name}'s favorite colors are:</p>
-            {favoriteColors ?
+            <p>{name}'s favorite colors are:            
                 <ul>
-                    {favoriteColors.map(color => (
+                  {favoriteColors ?
+                    favoriteColors.map(color => (
                         <li key={color}>{color}</li>
-                    ))}
-                </ul>
-                :
-                ''
-            }        
+                    ))
+                    :
+                    <li>none</li>
+                }
+                </ul></p>              
+                
+                   
         </>
     )
 }

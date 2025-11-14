@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: left;
+  background: rgb(219, 116, 133);
+  color: black;
 }
 
 .logo {
