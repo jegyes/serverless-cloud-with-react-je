@@ -2,16 +2,12 @@
 import './App.css'
 import PeopleList from './PeopleList';
 
-
-
-
-
 function App() {
 
       const people = [
 
         {
-        name: 'Desi',
+        name: 'Dezi',
         favoriteNumber: 9,
         favoriteColors: ['green', 'blue', 'purple'],
         },
@@ -35,7 +31,6 @@ function App() {
         },
     
     ];
-
   
   return (
     <>
@@ -45,7 +40,6 @@ function App() {
       
     </>
   )
-
 
 };
 
