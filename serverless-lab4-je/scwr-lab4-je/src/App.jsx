@@ -5,6 +5,7 @@ import PeopleList from './PeopleList';
 
 
 
+
 function App() {
 
       const people = [
@@ -39,8 +40,9 @@ function App() {
   return (
     <>
       <h1>Greetings, React!!</h1>
-      <p>Let's test the things.</p>
+      <p>Meet the People</p>
       <PeopleList people={people}/>
+      
     </>
   )
 
