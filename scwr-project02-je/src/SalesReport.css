@@ -1,0 +1,16 @@
+.salesReport {
+    background: rgb(193, 206, 218);
+    border: 1em double navy;
+    color: navy;
+    text-align: left;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+
+
+};
+
+h3 {
+    color: darkslategrey;
+}
+
