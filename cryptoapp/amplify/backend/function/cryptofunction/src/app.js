@@ -26,6 +26,7 @@ app.use(function(req, res, next) {
 });
 
 /* amplify/backend/function/cryptofunction/src/app.js */
+// the data-fetch
 
 app.get('/coins', function(req, res) {
   const coins = [
