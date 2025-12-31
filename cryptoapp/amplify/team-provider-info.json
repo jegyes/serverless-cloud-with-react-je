@@ -10,6 +10,11 @@
       "StackName": "amplify-cryptoapp-dev-d7ecb",
       "StackId": "arn:aws:cloudformation:us-east-1:975050271434:stack/amplify-cryptoapp-dev-d7ecb/de0668a0-e666-11f0-b6bb-12531d0258cb",
       "AmplifyAppId": "d28oza2zy4cqi5"
+    },
+    "categories": {
+      "function": {
+        "cryptofunction": {}
+      }
     }
   }
 }
