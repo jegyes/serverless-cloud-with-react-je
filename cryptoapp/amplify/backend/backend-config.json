@@ -9,6 +9,14 @@
           ],
           "category": "function",
           "resourceName": "cryptofunction"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "githubBornOn"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -17,6 +25,11 @@
   },
   "function": {
     "cryptofunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "githubBornOn": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
