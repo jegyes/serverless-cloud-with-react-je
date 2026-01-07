@@ -36,7 +36,7 @@ function App() {
   // Call fetchCoins function when component loads - i.e. on-load first time
   useEffect(() => {
     fetchCoins()
-  }, [])
+  })
 
   return (
     <div className="App">

@@ -19,7 +19,7 @@
         },
         "githubBornOn": {
           "deploymentBucketName": "amplify-cryptoapp-dev-d7ecb-deployment",
-          "s3Key": "amplify-builds/githubBornOn-4e59416a6c51504d6148-build.zip"
+          "s3Key": "amplify-builds/githubBornOn-586e79312b6b6169374c-build.zip"
         }
       },
       "api": {

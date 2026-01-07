@@ -25,9 +25,9 @@ async function fetchBorn() {
     // approaches to defining the github-data shape and was unsuccessful at getting 
     // it to render anything (the app worked - just not response from github would
     // render; with ai assist I could learn that github response was in in an array
-    // thus call for the index for the single value:
+    // calling for an index; and then I somehow managed to change it from an array. . .
     // Initially, I had hardcoded the created_at data in my lamda app.js, which worked great.
-    setBorn(data?.born?.[0]?.created_at ?? null);
+    setBorn(data?.born ?? null);
     } catch (e) {
       console.error(e);
       setError('cannot load github user created_at data');
