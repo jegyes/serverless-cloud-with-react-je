@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 
 // Import the API category from AWS Amplify
 import { get } from 'aws-amplify/api'
+import GitBornDate from './gitBornDate.jsx';
 
 import './App.css';
 
@@ -39,6 +40,10 @@ function App() {
 
   return (
     <div className="App">
+
+      <h1>Crypto and GitHub Data Interactive</h1>
+      <h2>A serverless web application built with React and AWS Amplify</h2>
+
       <input
         onChange={e => updateInputValues('limit', e.target.value)}
         placeholder="limit"
@@ -53,11 +58,12 @@ function App() {
       {
         coins.map((coin, index) => (
           <div key={index}>
-            <h2>{coin.name} - {coin.symbol}</h2>
-            <h5>${coin.price_usd}</h5>
+            <h3>{coin.name} - {coin.symbol}</h3>
+            <h4>${coin.price_usd}</h4>
           </div>
         ))
       }
+      <GitBornDate />
     </div>
   );
 }

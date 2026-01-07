@@ -51,6 +51,22 @@
           "resourceName": "cryptofunction"
         }
       ]
+    },
+    "AMPLIFY_function_githubBornOn_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "githubBornOn"
+        }
+      ]
+    },
+    "AMPLIFY_function_githubBornOn_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "githubBornOn"
+        }
+      ]
     }
   }
 }

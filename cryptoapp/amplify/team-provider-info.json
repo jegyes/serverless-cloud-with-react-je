@@ -15,9 +15,15 @@
       "function": {
         "cryptofunction": {
           "deploymentBucketName": "amplify-cryptoapp-dev-d7ecb-deployment",
-          "s3Key": "amplify-builds/cryptofunction-4d7a6d376a346b63787a-build.zip"
+          "s3Key": "amplify-builds/cryptofunction-4c5439632b5337314339-build.zip"
         },
-        "githubBornOn": {}
+        "githubBornOn": {
+          "deploymentBucketName": "amplify-cryptoapp-dev-d7ecb-deployment",
+          "s3Key": "amplify-builds/githubBornOn-4e59416a6c51504d6148-build.zip"
+        }
+      },
+      "api": {
+        "cryptoapi": {}
       }
     }
   }
